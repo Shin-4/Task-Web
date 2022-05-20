@@ -4,18 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contoh 02</title>
-    <?php
-    $nim = "12170829";
-    $nama = "Bima Bintang Galaxy";
-    $kelas= "12.1A.01";
-    ?>
+    <title>Contoh 03</title>
 </head>
 <body>
     <?php
-    echo "NIM Saya: ".$nim."<br/>";
-    echo "Nama Saya: ".$nama."<br/>";
-    echo "Kelas Saya: ".$kelas."<br/>";
+    $jumlah=5;
+    $harga=20000;
+    $total=$harga*$jumlah;
+    
+    echo "Jumlah Beli : $jumlah<br />";
+    echo "Harga Barang : $harga<br />";
+    echo "Total Bayar : $total<br />";
     ?>
 </body>
 </html>
